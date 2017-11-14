@@ -12,7 +12,7 @@ For More details on existing keyspaces:
 
 SELECT * FROM system.schema_keyspaces;
 
-use the keyspace “Students”:
+use the keyspace â€œStudentsâ€:
 
 USE Students;
 
@@ -46,11 +46,11 @@ INSERT INTO Students_Info(Roll_No,  StudName, DateOfJoining,  last_exam_Percent)
 VALUES (1,'Rohan','2012-03-12',56.9)
 APPLY BATCH;
 
-View data from the table “Students_Info”
+View data from the table â€œStudents_Infoâ€
 
 SELECT * FROM  Students_Info;
 
-View data from the table “Students_Info” where RoolNo column either has a value  1 or 2 or 3
+View data from the table â€œStudents_Infoâ€ where RoolNo column either has a value  1 or 2 or 3
 
 SELECT * FROM  Students_Info WHERE Roll_No IN (1,2,3);
 
@@ -70,7 +70,7 @@ select Roll_No, StudName from students_info LIMIT 2;
 
 Alias for Column:
 
-Select Roll_No as “USN” from Students_info;
+Select Roll_No as â€œUSNâ€ from Students_info;
 
 UPDATE
 
